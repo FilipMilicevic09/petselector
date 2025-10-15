@@ -16,7 +16,7 @@ public class Petselector{
         System.out.println("what is your favorite color?");
         String color = input.nextLine().toLowerCase().trim();
         
-         if(!(color.equals("red")|| colorsumm.equals("green")|| color.equals("blue"))){
+         if(!(color.equals("red")|| color.equals("green")|| color.equals("blue"))){
             System.out.println("not applicable try red, blue, or green");
             return;
         }
