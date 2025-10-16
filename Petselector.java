@@ -20,10 +20,18 @@ public class Petselector{
             System.out.println("not applicable try red, blue, or green");
             return;
         }
+
+        
+        System.out.println("what is your Name?");
+        String name = input.nextLine().toLowerCase().trim();
         
         //make sure the input is valid (Idiot proof!)
         //make a decision
         //tell the user what they get!
-
+        if(color.equals("blue") && season.equals ("fall"))
+        {
+            System.out.println("\nYour perfect pet is: Aligator \n");
+            return;
+        }
 }
 }
