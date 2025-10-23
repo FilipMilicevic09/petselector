@@ -66,7 +66,7 @@ public class Petselector{
             System.out.println("\nYour perfect pet is: Panda \n");
             return;
         }
-        else if ( color.equals ("red")  && "aeiouAEIOU".indexOf(name.charAt(0)) == 0)
+        else if ( color.equals ("red")  && "aeiouAEIOU".indexOf(name.charAt(0)) >= 0)
         {
             System.out.println("\nYour perfect pet is: Porcupine \n");
             return;
